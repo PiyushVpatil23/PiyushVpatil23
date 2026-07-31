@@ -1,2 +1,8 @@
 requests==2.32.3
 beautifulsoup4==4.12.3
+
+# Portrait-only dependencies. The daily GitHub Action does not use these scripts.
+pillow
+numpy
+opencv-python
+rembg
